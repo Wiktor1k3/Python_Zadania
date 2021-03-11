@@ -1,30 +1,20 @@
 from math import *
 
-a = 8
-b = 4
-c = 3
+pierwsza_liczba = input("Podaj pierwszą liczbę: ")
+znak = input("Podaj znak działania: ")
+druga_liczba = input("Podaj drugą liczbę: ")
 
-dzielenie = a/b
-print(dzielenie)
-
-dodawanie = a + c
-print(dodawanie)
-
-dzielenie_calkowite = a // c
-print(dzielenie_calkowite)
-
-reszta = a % c
-print(reszta)
-
-potegowanie = a ** 2
-print(potegowanie)
-
-print(pow(a, 2)) #potęgowanie
-
-
-d = 0.63242
-print(round(d))
-
-print(pi)
-
-print(sqrt(9))
+ if znak == "+":
+    suma = int(pierwsza_liczba) + int(druga_liczba)
+    print(suma)
+ elif znak == "-":
+    roznica = int(pierwsza_liczba) - int(druga_liczba)
+    print(roznica)
+ elif znak == "*":
+    iloczyn = int(pierwsza_liczba) * int(druga_liczba)
+    print(iloczyn)
+ elif znak == "/":
+    iloraz = int(pierwsza_liczba) / int(druga_liczba)
+    print(iloraz)
+ else:
+    print("error")
