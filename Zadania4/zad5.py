@@ -1,8 +1,8 @@
 from PlikiDodatk import CiągiAryt
 
-ciag = CiągiAryt.CiągiAryt()
-ciag.pobierz_parametry(3, 4, 6)
-ciag.policz_elementy()
-ciag.pobierz_elementy(6,3, 1)
-ciag.policz_sume()
-ciag.wyświetl_dane()
+c = CiągiAryt.CiągiAryt()
+c.pobierz_parametry(3, 4, 6)
+c.policz_elementy()
+c.pobierz_elementy(6,3, 1)
+c.policz_sume()
+c.wyświetl_dane()
