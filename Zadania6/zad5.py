@@ -1,8 +1,8 @@
 import numpy as np
 
 def funkcja(n):
-    wektor = np.diag([i for i in range(8,0,-2)],2)
-    print(wektor)
+    a = np.diag([i for i in range(n,0,-2)],2)
+    print(a)
 
 
 funkcja(8)
